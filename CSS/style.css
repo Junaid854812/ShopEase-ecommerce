@@ -10,12 +10,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
-    background-color: white;
+    background-color: hsl(211, 56%, 28%);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .logo h1{
-    color: #2c3e50;
+    color: white;
 }
 
 .nav-links{
@@ -26,7 +26,7 @@ body {
 
 .nav-links a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 600px;
 }
 
@@ -34,9 +34,9 @@ body {
     color: #0077ff;
 }
 
-.cart{
+.cart-logo{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -172,6 +172,7 @@ footer{
 }
 
 .cart{
+    background: linear-gradient(to right,#74ebd5,#ACB6E5);
     padding: 40px 20px;
 }
 
