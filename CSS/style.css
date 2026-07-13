@@ -511,6 +511,10 @@ footer{
     justify-content:center;
 
     }
+
+    .story-content h2{
+        margin-top: 20px;
+    }
 }
 
 @media (max-width:480px){
